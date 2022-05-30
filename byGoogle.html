@@ -24,6 +24,28 @@
 
             }
         }
+        
+        // solution 2
+        
+                let k = 17;
+        const givenList = [10, 15, 3, 7];
+
+        let control = function () {
+            for (let i = 0; i < givenList.length; i++) {
+                for (let ii = 0; ii < givenList.length; ii++) {
+                    if ((givenList[i] + givenList[ii]) === k) {
+                        console.log(givenList[i], givenList[ii]);
+                        return true;
+                    };
+                };
+            };
+            return false;
+        };
+
+        console.log(control());
+
+        
+       
     </script>
 </body>
 
