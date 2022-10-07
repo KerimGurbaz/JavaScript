@@ -165,3 +165,8 @@ console.log(data.results[0].name.first)
 })
 
 getApi();
+
+
+
+const techs = ['HTML', 'CSS', 'JavaScript']
+const techsFormatted = techs.map((tech) => <li>{tech}</li>)
